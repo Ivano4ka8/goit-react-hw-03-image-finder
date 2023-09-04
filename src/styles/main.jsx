@@ -45,11 +45,17 @@ export const GlobalStyles = createGlobalStyle`
   img {
     display: block;
     max-width: 100%;
-    height: auto;
+    height: 100%;
+    cursor: pointer;
   }
 
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
+  }
+  .blocks-wrapper{
+    display: block;
+    text-align: center;
+    margin: 0 auto
   }
 `;
