@@ -10,7 +10,7 @@ export const Form = styled.form`
 
 export const Input = styled.input`
   width: 400px;
-  color: white;
+  color: ${({ theme }) => theme.colors.white};
   background: black;
   border: none;
   padding: 8px;
@@ -25,5 +25,5 @@ export const ButtonSearch = styled.button`
 `;
 
 export const SearchIcon = styled(FaSearch)`
-  fill: white;
+  fill: ${({ theme }) => theme.colors.white};
 `;
